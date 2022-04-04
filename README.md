@@ -18,6 +18,8 @@
     - Bebida
     - Cronograma da festa
 
+[] link de presentes dos noivos (direto pro site da fast)
+
 [] Criar perfil 
     - Nome (Autocomplete Dropdown com Search) + 18 
     - foto de agora 
