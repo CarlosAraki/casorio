@@ -10,6 +10,7 @@
         - casamento paola e carlos etc
     - servidor talvez web app 
     - dockerizar 
+    - yarn add  vercel && export PATH=$PATH:/workspace/casorio/node_modules/.bin
 
 ## Ideias 
 
