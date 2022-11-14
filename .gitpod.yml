@@ -1,0 +1,15 @@
+# example .gitpod.yml from https://github.com/gitpod-io/demo-multi-repo-frontend
+
+
+tasks:
+  - name: vercelconfig
+    init: |
+      yarn install
+    command: |
+      export PATH=$PATH:/workspace/casorio/node_modules/.bin
+
+  - name: djangoconfig
+    init: |
+      pip install django
+    command: |
+      python ./django-casorio/vercel_app/manage.py server
