@@ -1,2 +1,2 @@
 .vercel
-/vercel_app/__pycache__/*
+./vercel_app/vercel_app/__pycache__/*
