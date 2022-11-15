@@ -4,7 +4,7 @@
 tasks:
   - name: vercelconfig
     init: |
-      yarn install
+      echo aiaiai
     command: |
       export PATH=$PATH:/workspace/casorio/node_modules/.bin
 
