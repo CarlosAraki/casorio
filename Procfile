@@ -1,1 +1,1 @@
-web: gunicorn django-casorio.vercel_app.App.wsgi
+web:gunicorn django-casorio.vercel_app.App.wsgi
