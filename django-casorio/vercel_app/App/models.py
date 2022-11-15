@@ -27,18 +27,18 @@ class Perfil(models.Model):
 class Pontos(models.Model):
     # QUANTOS PONTOS CADA PERFIL TEM
     # PONTOS SERAO INCREMENTADOS CONFORME DESAFIOS FOREM CONCLUIDOS
-    perfil = models.ForeignKey(Perfil)
+    perfil = models.ForeignKey(Perfil, on_delete=models.CASCADE)
     numero = models.IntegerField()
 
 class Musica(models.Model):
     # ADICIONAR MUSICAS NA FILA DE REPRODUCAO
     # CONVIDADOS IRAO ADICIONAR CONFORME QUISEREM
     nome = models.CharField(max_length=500)  # INTEGRAR COM SPOTIFY
-    perfil = models.ForeignKey(Perfil)
+    perfil = models.ForeignKey(Perfil, on_delete=models.CASCADE)
     
 class FilaTatuador(models.Model):
     # ADICIONAR CONVIDADOS NA FILA DO TATUADOR
     # CONVIDADOS IRAO SE ADICIONAR CONFORME QUISEREM
-    perfil = models.ForeignKey(Perfil)
+    perfil = models.ForeignKey(Perfil, on_delete=models.CASCADE)
     lugarFila = models.IntegerField()
-    tatuador = models.ForeignKey(Tatuador)
+    tatuador = models.ForeignKey(Tatuador, on_delete=models.CASCADE)
