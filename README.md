@@ -11,6 +11,11 @@
     - servidor talvez web app 
     - dockerizar 
     - yarn add  vercel && export PATH=$PATH:/workspace/casorio/node_modules/.bin
+    - sudo apt-get install python3.9-venv
+    - python3.9 -m venv venv
+    - source venv/bin/activate
+    - pip --version
+    - #https://github.com/Qexo/Qexo/commit/0ae79ac9e0d764610b2edb38b5ef12dc3c18e17d
 
 ## Ideias 
 
