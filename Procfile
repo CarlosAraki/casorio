@@ -1,0 +1,1 @@
+web: gunicorn django-casorio.vercel_app.App.wsgi
