@@ -12,4 +12,9 @@ tasks:
     init: |
       pip install django
     command: |
-      python ./django-casorio/vercel_app/manage.py server
+      python ./django-casorio/vercel_app/manage.py runserver
+
+ports:
+  - name: dev_View 
+    port: 8000
+    onOpen: open-browser
