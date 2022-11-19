@@ -1,0 +1,30 @@
+{% load static %}
+{% csrf_token %}
+
+<html>
+    <div class="marsala h-100 w-100">
+        <img class="circle white-border center-img icon-img img-login-height" src="{% static 'img/login.png' %}">
+        <div class="w-100 marsala-claro login-wave">
+            <input type="text" class="col-3 username-input center-img px-2" placeholder="Nome de Usuário">
+            <button class="col-3 mt-3 username-btn center-img px-2">Comece a Festa</button>
+        </div>
+    </div>
+
+</html>
+
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+<link rel="stylesheet" href="{% static 'css/animations.css' %}">
+<link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--<script src="{% static 'js/base.js' %}"></script>-->
+<script src="{% static 'js/login.js' %}"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+

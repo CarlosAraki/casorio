@@ -49,3 +49,7 @@ def update_clock(request):
 
     print(data)
     return JsonResponse(data)
+
+def login(request):
+
+    return render(request, 'login.html')

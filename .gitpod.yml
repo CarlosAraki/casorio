@@ -8,9 +8,9 @@ tasks:
     command: |
       python ./django-casorio/vercel_app/manage.py runserver
 
-  - name: heroku
-    init: |
-      curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+#  - name: heroku
+#    init: |
+#      curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 ports:
   - name: dev_View 

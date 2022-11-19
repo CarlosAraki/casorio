@@ -23,5 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('update_clock/', views.update_clock),
+    path('login', views.login),  # VAI VIRAR INDEX
+
 
 ]
